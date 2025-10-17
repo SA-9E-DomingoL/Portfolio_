@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio</title>
+    <link rel="icon" type="image/png" href="shork.png">
+    <link rel="stylesheet" href="styles_Q1Project.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="logo.png" alt="Student Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="commissionprices.html#works">Size Guide For Pricing</a></li>
+                <li><a href="commissionprices.html#about">Commission Prices</a></li>
+                <li><a href="index.html#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="me!!.jpg" alt="Profile Picture" class="profile-pic">
+        <h1> Sketch Commission <span class="highlight">Ordering Form</span></h1>
+        <p>(HYPOTHETICAL COMMISSION)</p>
+        <img src="fishies.png">
+    </section>
+
+    <section id="works">
+        <div class="form-container">
+                <form>
+                <b>My Email:</b><p>fake.artistemail@gmail.com</p>
+                <!-- Input Fields -->
+                <label class="formtitle" for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                <br>
+                <br>
+                <label class="formtitle" for="email">Where can I contact you?</label>
+                <input type="email" id="email" name="email" placeholder="@socialmediauserhere" required>
+                <br>
+                <br>
+                <!-- Radio -->
+                <label class="formtitle">Size (๑>؂•̀๑)</label>
+                <br>
+                <div class="radio-group">
+                    <input type="radio" id="rate1" name="rating" value="1" required>
+                    <label for="rate1">Bust</label>
+
+                    <input type="radio" id="rate2" name="rating" value="2">
+                    <label for="rate2">Halfbody</label>
+
+                    <input type="radio" id="rate3" name="rating" value="3">
+                    <label for="rate3">Fullbody</label>
+                </div>
+
+                <br>
+                <br>
+                    <!-- Checkbox -->
+                <label class="formtitle"> What Will This Art Be Used For? </label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="action" name="genre" value="Commissions">
+                    <label for="action"> Merchaindise </label>
+
+                    <input type="checkbox" id="comedy" name="genre" value="Design">
+                    <label for="comedy"> Publish Material <br> (pubmat) </label>
+
+                    <input type="checkbox" id="drama" name="genre" value="Comic">
+                    <label for="drama"> Profile Picture </label>
+
+                    <input type="checkbox" id="drama" name="genre" value="Other">
+                    <label for="drama"> Other </label>
+
+                </div>
+                
+                <br>
+                <br>
+                <label class="formtitle" for="reason"> Any Requests?</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="I would like if..." required></textarea>
+                <br>
+
+                <!-- Submit -->
+                <button type="submit"> Submit</button>
+                </form>
+        </div>
+    </section>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Leona Sophia Domingo. All rights reserved.</p>
+    </footer>
+</main>
+</body>
+</html>
